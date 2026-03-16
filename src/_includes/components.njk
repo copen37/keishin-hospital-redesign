@@ -9,7 +9,7 @@
 {% macro breadcrumb(items=[]) %}
 <nav aria-label="パンくず" class="text-sm text-slate-500 py-4">
   <ol class="flex flex-wrap items-center gap-2">
-    <li><a href="/" class="hover:text-brand-700">ホーム</a></li>
+    <li><a href="{{ '/' | url }}" class="hover:text-brand-700">ホーム</a></li>
     {% for i in items %}
     <li aria-hidden="true">/</li>
     <li>

@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/keishin-hospital-redesign/",
     dir: {
       input: "src",
       includes: "_includes",

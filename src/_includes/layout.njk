@@ -12,7 +12,7 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:image" content="{{ site.url }}{{ ogImage or site.ogImage }}" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}" />
 </head>
 <body>
   <a href="#main" class="skip-link">本文へスキップ</a>
@@ -27,32 +27,32 @@
   <header class="site-header">
     <div class="container-keishin">
       <div class="hidden lg:flex items-center justify-between py-4 gap-8">
-        <a href="/" class="text-2xl font-black text-brand-900 tracking-tight">{{ site.name }}</a>
+        <a href="{{ '/' | url }}" class="text-2xl font-black text-brand-900 tracking-tight">{{ site.name }}</a>
         <nav aria-label="グローバルナビゲーション">
           <ul class="flex items-center gap-6 text-sm font-medium">
             {% for item in navigation %}
-            <li><a href="{{ item.url }}" class="nav-link">{{ item.label }}</a></li>
+            <li><a href="{{ item.url | url }}" class="nav-link">{{ item.label }}</a></li>
             {% endfor %}
           </ul>
         </nav>
         <div class="flex items-center gap-2">
-          <a href="/access/" class="btn-secondary text-sm">お問い合わせ</a>
+          <a href="{{ '/access/' | url }}" class="btn-secondary text-sm">お問い合わせ</a>
           <a href="tel:{{ site.phone | replace('-', '') }}" class="btn-primary text-sm">{{ site.phone }}</a>
         </div>
       </div>
 
       <div class="lg:hidden py-3 flex items-center justify-between gap-4">
-        <a href="/" class="font-extrabold text-lg text-brand-900">{{ site.name }}</a>
+        <a href="{{ '/' | url }}" class="font-extrabold text-lg text-brand-900">{{ site.name }}</a>
         <details class="mobile-menu">
           <summary aria-label="メニューを開く" class="btn-secondary text-sm list-none cursor-pointer">メニュー</summary>
           <div class="mobile-panel" role="dialog" aria-label="モバイルメニュー">
             <ul class="space-y-3 pb-4 border-b border-slate-200">
               {% for item in navigation %}
-              <li><a href="{{ item.url }}" class="block py-1">{{ item.label }}</a></li>
+              <li><a href="{{ item.url | url }}" class="block py-1">{{ item.label }}</a></li>
               {% endfor %}
             </ul>
             <div class="pt-4 grid gap-2">
-              <a href="/access/" class="btn-secondary text-sm">お問い合わせ</a>
+              <a href="{{ '/access/' | url }}" class="btn-secondary text-sm">お問い合わせ</a>
               <a href="tel:{{ site.phone | replace('-', '') }}" class="btn-primary text-sm">{{ site.phone }}</a>
             </div>
           </div>
@@ -65,7 +65,7 @@
 
   <div class="floating-cta" aria-label="固定CTA">
     <a href="tel:{{ site.phone | replace('-', '') }}" class="floating-btn">電話</a>
-    <a href="/access/" class="floating-btn">予約・問合せ</a>
+    <a href="{{ '/access/' | url }}" class="floating-btn">予約・問合せ</a>
   </div>
 
   <footer class="mt-24 bg-brand-900 text-brand-50">
@@ -78,13 +78,13 @@
       <div>
         <p class="font-semibold mb-3">サイトメニュー</p>
         <ul class="space-y-2 text-sm">
-          {% for item in navigation %}<li><a href="{{ item.url }}" class="hover:underline">{{ item.label }}</a></li>{% endfor %}
+          {% for item in navigation %}<li><a href="{{ item.url | url }}" class="hover:underline">{{ item.label }}</a></li>{% endfor %}
         </ul>
       </div>
       <div>
         <p class="font-semibold mb-3">来院前のご案内</p>
         <p class="text-sm opacity-90 mb-4">初診・紹介状に関するご相談はお気軽にご連絡ください。</p>
-        <a href="/hospitalization/" class="btn-secondary !border-white !text-white hover:!bg-white/15">入院案内を見る</a>
+        <a href="{{ '/hospitalization/' | url }}" class="btn-secondary !border-white !text-white hover:!bg-white/15">入院案内を見る</a>
       </div>
     </div>
     <div class="border-t border-white/20 py-4 text-center text-xs">© 2026 {{ site.name }}</div>
