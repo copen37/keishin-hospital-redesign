@@ -1,0 +1,8 @@
+[
+  { "label": "診療案内", "url": "/care/" },
+  { "label": "入院案内", "url": "/hospitalization/" },
+  { "label": "施設案内", "url": "/facilities/" },
+  { "label": "アクセス", "url": "/access/" },
+  { "label": "お知らせ", "url": "/news/" },
+  { "label": "採用情報", "url": "/recruit/" }
+]

@@ -1,0 +1,52 @@
+---
+layout: layout.njk
+title: 地域に寄り添う医療
+description: 恵心病院は救急から回復期まで、患者さんとご家族の生活に寄り添う医療を提供します。
+---
+<section class="bg-gradient-to-b from-brand-50 to-white">
+  <div class="container-keishin grid lg:grid-cols-2 gap-10 py-16 md:py-24 items-center">
+    <div>
+      <p class="text-brand-700 font-semibold mb-4">地域連携・24時間救急対応</p>
+      <h1 class="text-4xl md:text-5xl mb-6">安心を届ける、
+        <span class="text-brand-700">まちの総合病院</span>
+      </h1>
+      <p class="text-lg text-slate-600 mb-8">外来・入院・在宅支援まで一貫した診療体制を整え、患者さんの「その先の暮らし」まで支えます。</p>
+      <div class="flex flex-wrap gap-3">
+        <a href="/care/" class="btn-primary">診療案内</a>
+        <a href="/access/" class="btn-secondary">アクセス</a>
+      </div>
+    </div>
+    <img src="/assets/images/original/img_bnr-group.jpg" alt="医療チームのイメージ" width="950" height="394" loading="eager" class="rounded-2xl shadow-card w-full object-cover" />
+  </div>
+</section>
+
+<section class="container-keishin py-16">
+  <h2 class="section-title">外来・入院のご案内</h2>
+  <p class="section-lead mb-8">最初の導線を明確にするため、目的別に入口を整理しています。</p>
+  <div class="grid md:grid-cols-3 gap-6">
+    <a href="/care/" class="card hover:-translate-y-1 transition"><h3 class="text-xl mb-2">診療案内</h3><p>診療科目、担当医、初診・再診の流れを掲載しています。</p></a>
+    <a href="/hospitalization/" class="card hover:-translate-y-1 transition"><h3 class="text-xl mb-2">入院案内</h3><p>お手続き、必要書類、面会ルールをご確認いただけます。</p></a>
+    <a href="/facilities/" class="card hover:-translate-y-1 transition"><h3 class="text-xl mb-2">施設案内</h3><p>病棟・リハビリ・検査設備を写真付きで紹介します。</p></a>
+  </div>
+</section>
+
+<section class="container-keishin pb-16 grid lg:grid-cols-2 gap-6">
+  <div class="card">
+    <h2 class="text-2xl mb-4">重要なお知らせ</h2>
+    <ul class="space-y-3 text-sm">
+      {% for item in news %}
+      <li class="border-b pb-3 border-slate-100">
+        <p class="text-slate-500">{{ item.date }}</p>
+        <a href="/news/{{ item.slug }}/" class="font-medium hover:text-brand-700">{{ item.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="/news/" class="inline-block mt-4 text-brand-700 font-semibold">一覧を見る →</a>
+  </div>
+  <div class="card">
+    <h2 class="text-2xl mb-4">採用情報</h2>
+    <img src="/assets/images/original/img_bnr-hospital-nurse.jpg" alt="看護師採用" width="950" height="394" loading="lazy" class="rounded-xl mb-4 w-full object-cover" />
+    <p class="mb-4">看護師・薬剤師・事務職を募集中。教育制度と働きやすさを重視した体制です。</p>
+    <a href="/recruit/" class="btn-primary">募集要項を見る</a>
+  </div>
+</section>

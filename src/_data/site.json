@@ -1,0 +1,9 @@
+{
+  "name": "恵心病院",
+  "url": "https://copen37.github.io/keishin-hospital-redesign",
+  "description": "地域に寄り添う急性期・回復期の総合医療を提供する恵心病院の公式サイトです。診療案内、入院案内、施設情報、採用情報をご案内します。",
+  "phone": "03-1234-5678",
+  "address": "〒160-0000 東京都新宿区恵心1-2-3",
+  "hours": "平日 8:30-17:00",
+  "ogImage": "/assets/images/original/img_bnr-group.jpg"
+}

@@ -1,0 +1,20 @@
+---
+layout: layout.njk
+pagination:
+  data: news
+  size: 1
+  alias: article
+permalink: "/news/{{ article.slug }}/index.html"
+eleventyComputed:
+  title: "{{ article.title }}"
+---
+<article class="container-keishin py-14 max-w-4xl">
+  <p class="text-sm text-slate-500 mb-3">{{ article.date }} / {{ article.category }}</p>
+  <h1 class="section-title">{{ article.title }}</h1>
+  <div class="card mt-8 space-y-4">
+    <p>{{ article.summary }}</p>
+    <p>本文テンプレートです。実運用ではCMSまたはMarkdown運用で本文を更新してください。</p>
+    <div class="placeholder-box">【画像準備中】記事に関連する写真・図表の掲載枠</div>
+  </div>
+  <a href="/news/" class="inline-block mt-6 text-brand-700 font-semibold">← お知らせ一覧に戻る</a>
+</article>

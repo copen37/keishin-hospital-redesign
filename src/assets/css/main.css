@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {@apply text-slate-700 bg-slate-50 leading-relaxed;}
+  h1,h2,h3,h4 {@apply text-slate-900 font-bold tracking-tight;}
+}
+
+@layer components {
+  .container-keishin {@apply max-w-6xl mx-auto px-4 md:px-6;}
+  .section-title {@apply text-2xl md:text-4xl mb-3;}
+  .section-lead {@apply text-slate-600 max-w-3xl;}
+  .card {@apply rounded-2xl bg-white shadow-card p-6;}
+  .btn-primary {@apply inline-flex items-center justify-center rounded-full bg-brand-500 hover:bg-brand-700 text-white px-6 py-3 font-medium transition;}
+  .btn-secondary {@apply inline-flex items-center justify-center rounded-full border border-brand-500 text-brand-700 px-6 py-3 font-medium hover:bg-brand-50 transition;}
+  .placeholder-box {@apply rounded-2xl border-2 border-dashed border-slate-300 bg-slate-100 text-slate-500 flex items-center justify-center min-h-[220px] p-6 text-center;}
+}

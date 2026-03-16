@@ -1,0 +1,98 @@
+[
+  {
+    "path": "/",
+    "mode": "desktop",
+    "errors": [],
+    "screenshot": "_audit_2026/index_desktop.png"
+  },
+  {
+    "path": "/care/",
+    "mode": "desktop",
+    "errors": [],
+    "screenshot": "_audit_2026/_care__desktop.png"
+  },
+  {
+    "path": "/hospitalization/",
+    "mode": "desktop",
+    "errors": [],
+    "screenshot": "_audit_2026/_hospitalization__desktop.png"
+  },
+  {
+    "path": "/facilities/",
+    "mode": "desktop",
+    "errors": [],
+    "screenshot": "_audit_2026/_facilities__desktop.png"
+  },
+  {
+    "path": "/access/",
+    "mode": "desktop",
+    "errors": [],
+    "screenshot": "_audit_2026/_access__desktop.png"
+  },
+  {
+    "path": "/news/",
+    "mode": "desktop",
+    "errors": [],
+    "screenshot": "_audit_2026/_news__desktop.png"
+  },
+  {
+    "path": "/news/system-update/",
+    "mode": "desktop",
+    "errors": [],
+    "screenshot": "_audit_2026/_news_system-update__desktop.png"
+  },
+  {
+    "path": "/recruit/",
+    "mode": "desktop",
+    "errors": [],
+    "screenshot": "_audit_2026/_recruit__desktop.png"
+  },
+  {
+    "path": "/",
+    "mode": "mobile",
+    "errors": [],
+    "screenshot": "_audit_2026/index_mobile.png"
+  },
+  {
+    "path": "/care/",
+    "mode": "mobile",
+    "errors": [],
+    "screenshot": "_audit_2026/_care__mobile.png"
+  },
+  {
+    "path": "/hospitalization/",
+    "mode": "mobile",
+    "errors": [],
+    "screenshot": "_audit_2026/_hospitalization__mobile.png"
+  },
+  {
+    "path": "/facilities/",
+    "mode": "mobile",
+    "errors": [],
+    "screenshot": "_audit_2026/_facilities__mobile.png"
+  },
+  {
+    "path": "/access/",
+    "mode": "mobile",
+    "errors": [],
+    "screenshot": "_audit_2026/_access__mobile.png"
+  },
+  {
+    "path": "/news/",
+    "mode": "mobile",
+    "errors": [],
+    "screenshot": "_audit_2026/_news__mobile.png"
+  },
+  {
+    "path": "/news/system-update/",
+    "mode": "mobile",
+    "errors": [],
+    "screenshot": "_audit_2026/_news_system-update__mobile.png"
+  },
+  {
+    "path": "/recruit/",
+    "mode": "mobile",
+    "errors": [],
+    "screenshot": "_audit_2026/_recruit__mobile.png"
+  }
+]
