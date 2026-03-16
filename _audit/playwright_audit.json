@@ -1,0 +1,166 @@
+{
+  "pages": [
+    {
+      "page": "access_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/access_index.html"
+      },
+      "consoleErrors": [
+        "[mobile] Failed to load resource: the server responded with a status of 404 (File not found)"
+      ],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "care-impor_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/care-impor_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "care_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/care_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "exhibition_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/exhibition_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "facilities_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/facilities_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "information_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/information_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "keijijikou_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/keijijikou_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "privacy_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/privacy_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "publicity_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/publicity_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "recruit_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/recruit_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "section_index.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/section_index.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "section_index2.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/section_index2.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "section_index3.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/section_index3.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "section_index4.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/section_index4.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "section_index5.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/section_index5.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    },
+    {
+      "page": "section_index6.html",
+      "urls": {
+        "local": "http://127.0.0.1:8123/section_index6.html"
+      },
+      "consoleErrors": [],
+      "brokenLinks": [],
+      "overflow": []
+    }
+  ],
+  "summary": {
+    "pages": 17,
+    "shots": 34,
+    "consoleErrors": 1,
+    "brokenLinks": 0,
+    "overflowIssues": 0
+  }
+}

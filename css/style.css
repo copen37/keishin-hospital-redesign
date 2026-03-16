@@ -1,0 +1,15 @@
+
+:root{--bg:#f6f9fc;--card:#fff;--ink:#1b2b40;--muted:#5c6b7d;--accent:#1275c2;--line:#dbe5ef}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;color:var(--ink);background:var(--bg);line-height:1.7}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.header{position:sticky;top:0;background:#ffffffee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:9}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}.head-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{font-weight:700}.menu-btn{display:none}
+.nav a{margin:0 8px;font-size:14px;white-space:nowrap}.hero{padding:40px 0;background:linear-gradient(120deg,#ebf6ff,#fff)}
+.hero h1{margin:0 0 8px;font-size:clamp(26px,4vw,40px)}.hero p{margin:0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:2fr 1fr;gap:18px;margin:20px 0 28px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h2{margin:0 0 10px;font-size:20px}.meta li{margin:4px 0;color:var(--muted)}
+.table{width:100%;border-collapse:collapse;font-size:14px}.table td,.table th{border:1px solid var(--line);padding:8px;vertical-align:top}
+.footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:13px}
+.banner{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}.banner img{max-width:100%;border-radius:8px;border:1px solid var(--line);background:#fff}
+@media (max-width:900px){.grid{grid-template-columns:1fr}.nav{display:none}.nav.open{display:block;padding-bottom:10px}.nav a{display:inline-block;margin:6px 8px 0 0}.menu-btn{display:inline-block;border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px}}

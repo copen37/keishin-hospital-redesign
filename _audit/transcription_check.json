@@ -1,0 +1,185 @@
+{
+  "summary": {
+    "pages": 17,
+    "total_checks": 170,
+    "matched": 158,
+    "missing": 12
+  },
+  "pages": [
+    {
+      "page": "access_index.html",
+      "total_checks": 9,
+      "matched": 9,
+      "missing": 0,
+      "missing_samples": []
+    },
+    {
+      "page": "care-impor_index.html",
+      "total_checks": 5,
+      "matched": 5,
+      "missing": 0,
+      "missing_samples": []
+    },
+    {
+      "page": "care_index.html",
+      "total_checks": 12,
+      "matched": 12,
+      "missing": 0,
+      "missing_samples": []
+    },
+    {
+      "page": "exhibition_index.html",
+      "total_checks": 12,
+      "matched": 12,
+      "missing": 0,
+      "missing_samples": []
+    },
+    {
+      "page": "facilities_index.html",
+      "total_checks": 8,
+      "matched": 8,
+      "missing": 0,
+      "missing_samples": []
+    },
+    {
+      "page": "index.html",
+      "total_checks": 12,
+      "matched": 11,
+      "missing": 1,
+      "missing_samples": [
+        {
+          "type": "text40",
+          "value": "病院すべての部門が連携し、チーム医療に取り組みます。"
+        }
+      ]
+    },
+    {
+      "page": "information_index.html",
+      "total_checks": 12,
+      "matched": 9,
+      "missing": 3,
+      "missing_samples": [
+        {
+          "type": "text40",
+          "value": "診療科目/内科、外科、リハビリテーション科"
+        },
+        {
+          "type": "text40",
+          "value": "主な医療機器/各種レントゲン装置、リハビリ機器"
+        },
+        {
+          "type": "text40",
+          "value": "各種受給者証・認定証（お持ちの方のみご持参ください）"
+        }
+      ]
+    },
+    {
+      "page": "keijijikou_index.html",
+      "total_checks": 12,
+      "matched": 9,
+      "missing": 3,
+      "missing_samples": [
+        {
+          "type": "text40",
+          "value": "当院は、保険医療機関の指定を受けております。"
+        },
+        {
+          "type": "text40",
+          "value": "生活保護法施術機関指定番号　生医　11－32"
+        },
+        {
+          "type": "text40",
+          "value": "労災指定医番号　          1935909"
+        }
+      ]
+    },
+    {
+      "page": "privacy_index.html",
+      "total_checks": 12,
+      "matched": 11,
+      "missing": 1,
+      "missing_samples": [
+        {
+          "type": "text40",
+          "value": "取得された個人情報は以下のような目的に利用されます。"
+        }
+      ]
+    },
+    {
+      "page": "publicity_index.html",
+      "total_checks": 5,
+      "matched": 5,
+      "missing": 0,
+      "missing_samples": []
+    },
+    {
+      "page": "recruit_index.html",
+      "total_checks": 12,
+      "matched": 11,
+      "missing": 1,
+      "missing_samples": [
+        {
+          "type": "text40",
+          "value": "入院患者のリハビリテーション業務（作業療法）全般"
+        }
+      ]
+    },
+    {
+      "page": "section_index.html",
+      "total_checks": 11,
+      "matched": 10,
+      "missing": 1,
+      "missing_samples": [
+        {
+          "type": "text40",
+          "value": "安全で快適な療養生活が送れるよう支援します"
+        }
+      ]
+    },
+    {
+      "page": "section_index2.html",
+      "total_checks": 12,
+      "matched": 11,
+      "missing": 1,
+      "missing_samples": [
+        {
+          "type": "text40",
+          "value": "向上心と探究心をもち、自己研鑽に努めます。"
+        }
+      ]
+    },
+    {
+      "page": "section_index3.html",
+      "total_checks": 9,
+      "matched": 9,
+      "missing": 0,
+      "missing_samples": []
+    },
+    {
+      "page": "section_index4.html",
+      "total_checks": 9,
+      "matched": 9,
+      "missing": 0,
+      "missing_samples": []
+    },
+    {
+      "page": "section_index5.html",
+      "total_checks": 9,
+      "matched": 9,
+      "missing": 0,
+      "missing_samples": []
+    },
+    {
+      "page": "section_index6.html",
+      "total_checks": 9,
+      "matched": 8,
+      "missing": 1,
+      "missing_samples": [
+        {
+          "type": "text40",
+          "value": "（相談内容についての秘密は厳守いたします。）"
+        }
+      ]
+    }
+  ]
+}
