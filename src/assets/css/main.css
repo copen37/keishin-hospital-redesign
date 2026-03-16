@@ -1,19 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  body {@apply text-slate-700 bg-slate-50 leading-relaxed;}
+  html {scroll-behavior: smooth;}
+  body {@apply text-slate-700 bg-[#f5f8fb] leading-relaxed antialiased;}
   h1,h2,h3,h4 {@apply text-slate-900 font-bold tracking-tight;}
+  a {@apply transition duration-300;}
+  :focus-visible {@apply outline-none ring-2 ring-brand-500 ring-offset-2 ring-offset-white rounded-sm;}
 }
 
 @layer components {
-  .container-keishin {@apply max-w-6xl mx-auto px-4 md:px-6;}
-  .section-title {@apply text-2xl md:text-4xl mb-3;}
-  .section-lead {@apply text-slate-600 max-w-3xl;}
-  .card {@apply rounded-2xl bg-white shadow-card p-6;}
+  .container-keishin {@apply max-w-6xl mx-auto px-5 md:px-8;}
+  .section-title {@apply text-3xl md:text-5xl leading-tight;}
+  .section-lead {@apply text-slate-600 max-w-3xl text-base md:text-lg;}
+  .card {@apply rounded-3xl bg-white shadow-card p-6 md:p-8 border border-slate-100;}
+  .card-hover {@apply hover:-translate-y-1 hover:shadow-xl;}
   .btn-primary {@apply inline-flex items-center justify-center rounded-full bg-brand-500 hover:bg-brand-700 text-white px-6 py-3 font-medium transition;}
   .btn-secondary {@apply inline-flex items-center justify-center rounded-full border border-brand-500 text-brand-700 px-6 py-3 font-medium hover:bg-brand-50 transition;}
-  .placeholder-box {@apply rounded-2xl border-2 border-dashed border-slate-300 bg-slate-100 text-slate-500 flex items-center justify-center min-h-[220px] p-6 text-center;}
+  .site-header {@apply sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200;}
+  .nav-link {@apply text-slate-700 hover:text-brand-700 relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[1px] after:bg-brand-700 hover:after:w-full after:transition-all;}
+  .mobile-menu {position:relative;}
+  .mobile-panel {@apply absolute right-0 mt-3 w-[84vw] max-w-xs rounded-2xl bg-white p-5 shadow-2xl border border-slate-200;}
+  .ticker {@apply bg-brand-900 text-brand-50 text-xs;}
+  .ticker-label {@apply tracking-[0.2em] uppercase text-[10px] px-2 py-1 rounded-full bg-white/10;}
+  .ticker-track {white-space: nowrap; animation: tickerMove 28s linear infinite;}
+  .hero-title {@apply text-4xl md:text-6xl leading-[1.12] font-black text-slate-900;}
+  .hero-shell {@apply grid lg:grid-cols-[1.1fr_1fr] gap-8 lg:gap-12 items-end py-14 md:py-20;}
+  .bento-grid {@apply grid md:grid-cols-2 lg:grid-cols-3 gap-5;}
+  .bento-item {@apply rounded-3xl overflow-hidden bg-white border border-slate-100 shadow-card;}
+  .bento-item img {@apply w-full h-44 object-cover;}
+  .floating-cta {@apply fixed bottom-4 right-4 z-40 flex flex-col gap-2 md:bottom-6 md:right-6;}
+  .floating-btn {@apply bg-brand-700 text-white text-sm px-4 py-3 rounded-full shadow-lg hover:bg-brand-900 text-center;}
+  .skip-link {@apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:bg-white focus:p-3 focus:rounded-lg focus:z-[100];}
+}
+
+@keyframes tickerMove {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-45%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important;}
 }

@@ -2,15 +2,31 @@
 layout: layout.njk
 title: アクセス
 ---
-<section class="container-keishin py-14">
-  <h1 class="section-title">アクセス</h1>
-  <p class="section-lead">公共交通機関・お車での来院方法をご案内します。</p>
-  <div class="grid lg:grid-cols-2 gap-6 mt-8">
-    <div class="card">
-      <h2 class="text-xl mb-3">所在地</h2>
-      <p>〒160-0000 東京都新宿区恵心1-2-3</p>
-      <ul class="mt-4 text-sm space-y-1"><li>JR新宿駅 東口より徒歩8分</li><li>都営大江戸線 新宿西口駅より徒歩5分</li><li>駐車場 45台（有料）</li></ul>
-    </div>
-    <div class="placeholder-box">【地図埋め込み予定】Google Maps iframeをここに配置</div>
+{% from "components.njk" import sectionHeading, breadcrumb %}
+<section class="container-keishin py-8 md:py-12">
+  {{ breadcrumb([{ label: "アクセス" }]) }}
+  {{ sectionHeading("Access", "アクセス・お問い合わせ", "公共交通機関・お車での来院方法とお問い合わせ先です。") }}
+  <div class="grid lg:grid-cols-2 gap-6">
+    <article class="card">
+      <h2 class="text-2xl mb-4">所在地</h2>
+      <p class="mb-3">〒160-0000 東京都新宿区恵心1-2-3</p>
+      <ul class="space-y-1 text-sm text-slate-600 mb-5">
+        <li>JR新宿駅 東口より徒歩8分</li><li>都営大江戸線 新宿西口駅より徒歩5分</li><li>駐車場45台（有料）</li>
+      </ul>
+      <div class="rounded-2xl bg-slate-50 p-4">
+        <p class="font-semibold text-slate-900">代表電話</p>
+        <a class="text-brand-700 font-bold text-lg" href="tel:0339101151">03-3910-1151</a>
+      </div>
+    </article>
+    <article class="card">
+      <h2 class="text-2xl mb-4">お問い合わせフォーム（準備中）</h2>
+      <p class="text-sm text-slate-600 mb-5">お問い合わせ内容を確認後、担当部署より折り返しご連絡します。</p>
+      <div class="grid gap-3 text-sm">
+        <input aria-label="お名前" class="rounded-xl border border-slate-300 px-4 py-3" placeholder="お名前" />
+        <input aria-label="電話番号" class="rounded-xl border border-slate-300 px-4 py-3" placeholder="電話番号" />
+        <textarea aria-label="お問い合わせ内容" class="rounded-xl border border-slate-300 px-4 py-3 min-h-[120px]" placeholder="お問い合わせ内容"></textarea>
+        <button class="btn-primary w-full md:w-auto" type="button">送信（ダミー）</button>
+      </div>
+    </article>
   </div>
 </section>

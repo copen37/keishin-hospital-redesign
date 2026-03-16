@@ -3,7 +3,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 
 const baseURL = 'http://127.0.0.1:8080';
 const pages = ['/', '/care/', '/hospitalization/', '/facilities/', '/access/', '/news/', '/news/system-update/', '/recruit/'];
-const outDir = '_audit_2026';
+const outDir = '_audit_hanamori_style';
 mkdirSync(outDir, { recursive: true });
 
 const browser = await chromium.launch();
@@ -26,12 +26,18 @@ for (const mode of ['desktop', 'mobile']) {
 
 await browser.close();
 
-const md = ['# Playwright監査レポート', '', `対象: ${baseURL}`, ''];
+const md = ['# Playwright監査レポート（Hanamori Style Refresh）', '', `対象: ${baseURL}`, ''];
 for (const r of report) {
-  md.push(`- ${r.path} (${r.mode})`);
-  md.push(`  - screenshot: ${r.screenshot}`);
-  md.push(`  - console errors: ${r.errors.length}`);
+  md.push(`## ${r.path} (${r.mode})`);
+  md.push(`- screenshot: ${r.screenshot}`);
+  md.push(`- console errors: ${r.errors.length}`);
+  if (r.errors.length) r.errors.forEach((e) => md.push(`  - ${e}`));
+  md.push('');
 }
+
+const totalErrors = report.reduce((sum, r) => sum + r.errors.length, 0);
+md.unshift(`総エラー数: ${totalErrors}`, '');
+
 writeFileSync(`${outDir}/playwright_audit.md`, md.join('\n'));
 writeFileSync(`${outDir}/playwright_audit.json`, JSON.stringify(report, null, 2));
-console.log('audit done', outDir);
+console.log('audit done', outDir, 'totalErrors=', totalErrors);

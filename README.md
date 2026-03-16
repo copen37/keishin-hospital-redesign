@@ -1,7 +1,7 @@
 # Keishin Hospital Redesign (Zero-base)
 
 ## 参考サイト（インスパイア元）
-- URL: https://hospital.luke.ac.jp/
+- URL: https://www.hanamorithp.jp
 - 選定理由（学んだ点）
   - UX: ファーストビューで「受診者導線」が明確（外来/入院/アクセス等）
   - 情報設計: 階層が浅く、グロナビ＋カードで迷子になりにくい
@@ -41,8 +41,8 @@ npm run audit   # 事前に `npx http-server dist -p 8080` などで配信
 ```
 
 ## 監査
-- Playwright監査レポート: `_audit_2026/playwright_audit.md`
-- スクショ: `_audit_2026/*.png`
+- Playwright監査レポート: `_audit_hanamori_style/playwright_audit.md`
+- スクショ: `_audit_hanamori_style/*.png`
 
 ## スキル化メモ（再利用手順）
 1. 参照サイトを1つ選び、UI原則だけ抽出（クローン禁止）

@@ -1,0 +1,33 @@
+{% macro sectionHeading(kicker, title, lead) %}
+<div class="mb-10 md:mb-14">
+  {% if kicker %}<p class="text-xs tracking-[0.18em] uppercase text-brand-700 font-semibold mb-3">{{ kicker }}</p>{% endif %}
+  <h2 class="section-title">{{ title }}</h2>
+  {% if lead %}<p class="section-lead mt-4">{{ lead }}</p>{% endif %}
+</div>
+{% endmacro %}
+
+{% macro breadcrumb(items=[]) %}
+<nav aria-label="パンくず" class="text-sm text-slate-500 py-4">
+  <ol class="flex flex-wrap items-center gap-2">
+    <li><a href="/" class="hover:text-brand-700">ホーム</a></li>
+    {% for i in items %}
+    <li aria-hidden="true">/</li>
+    <li>
+      {% if i.url %}
+      <a href="{{ i.url }}" class="hover:text-brand-700">{{ i.label }}</a>
+      {% else %}
+      <span class="text-slate-700">{{ i.label }}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</nav>
+{% endmacro %}
+
+{% macro ctaCard(title, text, href, label) %}
+<article class="card card-hover">
+  <h3 class="text-xl md:text-2xl mb-3">{{ title }}</h3>
+  <p class="text-slate-600 mb-6">{{ text }}</p>
+  <a href="{{ href }}" class="btn-secondary">{{ label }}</a>
+</article>
+{% endmacro %}

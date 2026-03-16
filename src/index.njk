@@ -3,50 +3,63 @@ layout: layout.njk
 title: 地域に寄り添う医療
 description: 恵心病院は救急から回復期まで、患者さんとご家族の生活に寄り添う医療を提供します。
 ---
-<section class="bg-gradient-to-b from-brand-50 to-white">
-  <div class="container-keishin grid lg:grid-cols-2 gap-10 py-16 md:py-24 items-center">
-    <div>
-      <p class="text-brand-700 font-semibold mb-4">地域連携・24時間救急対応</p>
-      <h1 class="text-4xl md:text-5xl mb-6">安心を届ける、
-        <span class="text-brand-700">まちの総合病院</span>
-      </h1>
-      <p class="text-lg text-slate-600 mb-8">外来・入院・在宅支援まで一貫した診療体制を整え、患者さんの「その先の暮らし」まで支えます。</p>
-      <div class="flex flex-wrap gap-3">
-        <a href="/care/" class="btn-primary">診療案内</a>
-        <a href="/access/" class="btn-secondary">アクセス</a>
-      </div>
+{% from "components.njk" import sectionHeading, ctaCard %}
+
+<section class="container-keishin hero-shell">
+  <div>
+    <p class="text-xs tracking-[0.2em] uppercase text-brand-700 font-semibold mb-4">Community General Hospital</p>
+    <h1 class="hero-title mb-6">こころに余白を、<br>医療に温度を。</h1>
+    <p class="section-lead mb-8">救急・外来・入院・在宅支援を切れ目なくつなぎ、患者さんとご家族の毎日に伴走する病院を目指しています。</p>
+    <div class="flex flex-wrap gap-3">
+      <a href="/care/" class="btn-primary">診療案内を見る</a>
+      <a href="/access/" class="btn-secondary">アクセス・予約</a>
     </div>
-    <img src="/assets/images/original/img_bnr-group.jpg" alt="医療チームのイメージ" width="950" height="394" loading="eager" class="rounded-2xl shadow-card w-full object-cover" />
+  </div>
+  <div class="grid gap-4">
+    <img src="/assets/images/original/img_bnr-group.jpg" alt="医療スタッフ" width="950" height="394" class="rounded-3xl shadow-card w-full object-cover min-h-[240px] md:min-h-[380px]" loading="eager"/>
+    <div class="grid grid-cols-2 gap-4">
+      <img src="/assets/images/original/img_bnr-hospital-nurse.jpg" alt="看護師チーム" width="950" height="394" class="rounded-2xl shadow-card w-full object-cover h-36 md:h-48" loading="lazy"/>
+      <img src="/assets/images/original/img_bnr-koudou-keishin.png" alt="病院方針" width="250" height="100" class="rounded-2xl shadow-card w-full object-cover h-36 md:h-48 bg-white" loading="lazy"/>
+    </div>
   </div>
 </section>
 
-<section class="container-keishin py-16">
-  <h2 class="section-title">外来・入院のご案内</h2>
-  <p class="section-lead mb-8">最初の導線を明確にするため、目的別に入口を整理しています。</p>
+<section class="container-keishin py-16 md:py-24">
+  {{ sectionHeading("Guide", "外来・入院のご案内", "最初に迷わない導線設計を重視し、目的別の入口を整理しています。") }}
   <div class="grid md:grid-cols-3 gap-6">
-    <a href="/care/" class="card hover:-translate-y-1 transition"><h3 class="text-xl mb-2">診療案内</h3><p>診療科目、担当医、初診・再診の流れを掲載しています。</p></a>
-    <a href="/hospitalization/" class="card hover:-translate-y-1 transition"><h3 class="text-xl mb-2">入院案内</h3><p>お手続き、必要書類、面会ルールをご確認いただけます。</p></a>
-    <a href="/facilities/" class="card hover:-translate-y-1 transition"><h3 class="text-xl mb-2">施設案内</h3><p>病棟・リハビリ・検査設備を写真付きで紹介します。</p></a>
+    {{ ctaCard("診療案内", "診療科目・担当医・受付時間・初診フローをご案内します。", "/care/", "詳しく見る") }}
+    {{ ctaCard("入院案内", "入院手続き、必要書類、面会に関する最新ルールを掲載。", "/hospitalization/", "入院前に確認") }}
+    {{ ctaCard("施設案内", "院内設備・検査機器・病棟の環境を写真付きで紹介。", "/facilities/", "施設をみる") }}
   </div>
 </section>
 
-<section class="container-keishin pb-16 grid lg:grid-cols-2 gap-6">
-  <div class="card">
-    <h2 class="text-2xl mb-4">重要なお知らせ</h2>
+<section class="container-keishin pb-20">
+  {{ sectionHeading("Visual", "院内の雰囲気", "明るい導線・静かな待合・相談しやすい空間づくりに取り組んでいます。") }}
+  <div class="bento-grid">
+    <article class="bento-item"><img src="/assets/images/original/img_bnr-group.jpg" alt="外来ホール"><div class="p-5"><h3 class="font-bold text-lg mb-2">総合受付</h3><p class="text-sm text-slate-600">初診の方にもわかりやすい案内表示を整備。</p></div></article>
+    <article class="bento-item"><img src="/assets/images/original/img_bnr-hospital-nurse.jpg" alt="病棟スタッフ"><div class="p-5"><h3 class="font-bold text-lg mb-2">病棟ケア</h3><p class="text-sm text-slate-600">多職種で療養生活を支えるチーム医療。</p></div></article>
+    <article class="bento-item md:col-span-2 lg:col-span-1"><img src="/assets/images/original/img_bnr-koudou-keishin.png" alt="病院理念"><div class="p-5"><h3 class="font-bold text-lg mb-2">理念と行動指針</h3><p class="text-sm text-slate-600">説明責任・安心感・連携を重視した運営。</p></div></article>
+  </div>
+</section>
+
+<section class="container-keishin pb-20 grid lg:grid-cols-2 gap-6">
+  <article class="card">
+    <h2 class="text-2xl mb-5">お知らせ</h2>
     <ul class="space-y-3 text-sm">
       {% for item in news %}
-      <li class="border-b pb-3 border-slate-100">
-        <p class="text-slate-500">{{ item.date }}</p>
+      <li class="border-b border-slate-100 pb-3">
+        <p class="text-slate-500">{{ item.date }} / {{ item.category }}</p>
         <a href="/news/{{ item.slug }}/" class="font-medium hover:text-brand-700">{{ item.title }}</a>
       </li>
       {% endfor %}
     </ul>
     <a href="/news/" class="inline-block mt-4 text-brand-700 font-semibold">一覧を見る →</a>
-  </div>
-  <div class="card">
-    <h2 class="text-2xl mb-4">採用情報</h2>
-    <img src="/assets/images/original/img_bnr-hospital-nurse.jpg" alt="看護師採用" width="950" height="394" loading="lazy" class="rounded-xl mb-4 w-full object-cover" />
-    <p class="mb-4">看護師・薬剤師・事務職を募集中。教育制度と働きやすさを重視した体制です。</p>
-    <a href="/recruit/" class="btn-primary">募集要項を見る</a>
-  </div>
+  </article>
+  <article class="card card-hover bg-brand-900 text-white">
+    <p class="text-xs tracking-[0.18em] uppercase mb-2 opacity-80">Recruit</p>
+    <h2 class="text-3xl text-white mb-3">採用情報</h2>
+    <p class="mb-5 text-white/85">看護師・薬剤師・事務職など、地域医療を支える仲間を募集中です。</p>
+    <img src="/assets/images/original/img_bnr-hospital-nurse.jpg" alt="採用イメージ" width="950" height="394" class="rounded-2xl mb-5 w-full object-cover" loading="lazy"/>
+    <a href="/recruit/" class="btn-secondary !border-white !text-white hover:!bg-white/15">募集要項を見る</a>
+  </article>
 </section>

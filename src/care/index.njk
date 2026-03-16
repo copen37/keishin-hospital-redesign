@@ -2,17 +2,31 @@
 layout: layout.njk
 title: 診療案内
 ---
-<section class="container-keishin py-14">
-  <h1 class="section-title">診療案内</h1>
-  <p class="section-lead">初診・再診の流れ、診療科目、受付時間をご案内します。</p>
-  <div class="grid md:grid-cols-2 gap-6 mt-8">
-    <div class="card"><h2 class="text-xl mb-2">受付時間</h2><p>午前 8:30-11:30 / 午後 13:00-16:30（土日祝休診）</p></div>
-    <div class="card"><h2 class="text-xl mb-2">初診時に必要なもの</h2><p>保険証、紹介状、お薬手帳をご持参ください。</p></div>
+{% from "components.njk" import sectionHeading, breadcrumb %}
+<section class="container-keishin py-8 md:py-12">
+  {{ breadcrumb([{ label: "診療案内" }]) }}
+  {{ sectionHeading("Care", "診療案内", "初診・再診の流れ、担当科、受付時間をわかりやすくまとめています。") }}
+  <div class="grid lg:grid-cols-3 gap-5 mb-6">
+    <article class="card lg:col-span-2">
+      <h2 class="text-2xl mb-4">受付・診療時間</h2>
+      <div class="grid sm:grid-cols-2 gap-4 text-sm">
+        <div class="rounded-2xl bg-slate-50 p-4"><p class="font-semibold mb-1">外来受付</p><p>8:30–11:30 / 13:00–16:30</p></div>
+        <div class="rounded-2xl bg-slate-50 p-4"><p class="font-semibold mb-1">診療時間</p><p>9:00–12:00 / 14:00–17:00</p></div>
+      </div>
+      <p class="text-sm text-slate-500 mt-4">※土曜午後・日曜・祝日は休診（救急は随時受付）</p>
+    </article>
+    <article class="card card-hover">
+      <h3 class="text-xl mb-3">初診時に必要なもの</h3>
+      <ul class="list-disc pl-5 space-y-1 text-sm text-slate-600">
+        <li>保険証（マイナ保険証）</li><li>紹介状（お持ちの方）</li><li>お薬手帳</li><li>各種公費受給者証</li>
+      </ul>
+    </article>
   </div>
-  <div class="card mt-6">
-    <h2 class="text-xl mb-3">診療科目</h2>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
-      <span>内科</span><span>外科</span><span>整形外科</span><span>循環器内科</span><span>脳神経外科</span><span>リハビリテーション科</span>
+  <article class="card">
+    <h2 class="text-2xl mb-4">診療科目</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-2 text-sm">
+      <span class="rounded-full bg-slate-50 px-3 py-2">内科</span><span class="rounded-full bg-slate-50 px-3 py-2">外科</span><span class="rounded-full bg-slate-50 px-3 py-2">整形外科</span><span class="rounded-full bg-slate-50 px-3 py-2">循環器内科</span>
+      <span class="rounded-full bg-slate-50 px-3 py-2">脳神経外科</span><span class="rounded-full bg-slate-50 px-3 py-2">耳鼻咽喉科</span><span class="rounded-full bg-slate-50 px-3 py-2">眼科</span><span class="rounded-full bg-slate-50 px-3 py-2">リハビリテーション科</span>
     </div>
-  </div>
+  </article>
 </section>

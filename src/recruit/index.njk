@@ -2,13 +2,20 @@
 layout: layout.njk
 title: 採用情報
 ---
-<section class="container-keishin py-14">
-  <h1 class="section-title">採用情報</h1>
-  <p class="section-lead">患者さんに向き合える仲間を募集しています。</p>
-  <div class="grid md:grid-cols-3 gap-6 mt-8">
-    <div class="card"><h2 class="text-lg mb-2">看護師</h2><p>病棟・外来・手術室で募集。夜勤手当あり。</p></div>
-    <div class="card"><h2 class="text-lg mb-2">薬剤師</h2><p>チーム医療に参加し、病棟業務を強化します。</p></div>
-    <div class="card"><h2 class="text-lg mb-2">事務職</h2><p>医事課・地域連携室での採用を行っています。</p></div>
+{% from "components.njk" import sectionHeading, breadcrumb %}
+<section class="container-keishin py-8 md:py-12">
+  {{ breadcrumb([{ label: "採用情報" }]) }}
+  {{ sectionHeading("Recruit", "採用情報", "患者さんの生活を支える仲間を募集しています。教育とチーム連携を重視します。") }}
+  <div class="grid md:grid-cols-3 gap-5 mb-6">
+    <article class="card card-hover"><h3 class="text-xl mb-2">看護師</h3><p class="text-sm text-slate-600">病棟・外来・手術室。教育担当制度あり。</p></article>
+    <article class="card card-hover"><h3 class="text-xl mb-2">薬剤師</h3><p class="text-sm text-slate-600">病棟薬剤業務・服薬指導・チーム医療。</p></article>
+    <article class="card card-hover"><h3 class="text-xl mb-2">医療事務</h3><p class="text-sm text-slate-600">受付・会計・地域連携サポート業務。</p></article>
   </div>
-  <img src="/assets/images/original/img_bnr-hospital-nurse.jpg" alt="採用イメージ" width="950" height="394" loading="lazy" class="rounded-2xl mt-8 w-full object-cover"/>
+  <article class="card overflow-hidden">
+    <img src="/assets/images/original/img_bnr-hospital-nurse.jpg" alt="採用イメージ" width="950" height="394" class="rounded-2xl mb-5 w-full object-cover" loading="lazy"/>
+    <div class="flex flex-wrap gap-3">
+      <a href="/access/" class="btn-primary">見学を申し込む</a>
+      <a href="tel:0339101151" class="btn-secondary">電話で相談</a>
+    </div>
+  </article>
 </section>

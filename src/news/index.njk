@@ -2,14 +2,16 @@
 layout: layout.njk
 title: お知らせ一覧
 ---
-<section class="container-keishin py-14">
-  <h1 class="section-title">お知らせ一覧</h1>
-  <ul class="mt-8 space-y-4">
+{% from "components.njk" import sectionHeading, breadcrumb %}
+<section class="container-keishin py-8 md:py-12">
+  {{ breadcrumb([{ label: "お知らせ" }]) }}
+  {{ sectionHeading("News", "お知らせ", "診療体制や採用情報など、病院からの最新情報を掲載しています。") }}
+  <ul class="space-y-4">
     {% for item in news %}
-    <li class="card">
-      <p class="text-xs text-slate-500 mb-1">{{ item.date }} / {{ item.category }}</p>
-      <a class="text-lg font-semibold hover:text-brand-700" href="/news/{{ item.slug }}/">{{ item.title }}</a>
-      <p class="mt-2 text-sm">{{ item.summary }}</p>
+    <li class="card card-hover">
+      <p class="text-xs text-slate-500 mb-2">{{ item.date }} / {{ item.category }}</p>
+      <a class="text-xl font-semibold hover:text-brand-700" href="/news/{{ item.slug }}/">{{ item.title }}</a>
+      <p class="mt-2 text-sm text-slate-600">{{ item.summary }}</p>
     </li>
     {% endfor %}
   </ul>

@@ -2,12 +2,25 @@
 layout: layout.njk
 title: 入院案内
 ---
-<section class="container-keishin py-14">
-  <h1 class="section-title">入院案内</h1>
-  <p class="section-lead">安心して療養いただくため、入院前から退院後までの流れをご案内します。</p>
-  <div class="grid md:grid-cols-2 gap-6 mt-8">
-    <div class="card"><h2 class="text-xl mb-2">入院手続き</h2><p>入院当日は1階入退院窓口へ。必要書類は事前案内をご確認ください。</p></div>
-    <div class="card"><h2 class="text-xl mb-2">面会について</h2><p>面会時間 14:00-19:00（病棟により制限あり）。感染症流行時は変更します。</p></div>
+{% from "components.njk" import sectionHeading, breadcrumb %}
+<section class="container-keishin py-8 md:py-12">
+  {{ breadcrumb([{ label: "入院案内" }]) }}
+  {{ sectionHeading("Hospitalization", "入院案内", "入院前の準備から退院支援まで、安心して療養できる流れをご案内します。") }}
+  <div class="grid lg:grid-cols-2 gap-6">
+    <article class="card">
+      <h2 class="text-2xl mb-4">入院手続き</h2>
+      <ul class="list-disc pl-5 text-sm space-y-2 text-slate-600">
+        <li>入院当日は1階入退院窓口へお越しください</li>
+        <li>保険証・診察券・必要書類をご持参ください</li>
+        <li>服薬中のお薬は内容がわかるものをご準備ください</li>
+      </ul>
+      <img src="/assets/images/original/img_bnr-group.jpg" alt="入院説明" width="950" height="394" class="rounded-2xl mt-5 w-full object-cover" loading="lazy"/>
+    </article>
+    <article class="card">
+      <h2 class="text-2xl mb-4">面会について</h2>
+      <p class="mb-3">面会時間 14:00–19:00（病棟・感染状況により変更あり）</p>
+      <p class="text-sm text-slate-600 mb-4">患者さんの安静と感染対策のため、面会人数・時間を制限する場合があります。</p>
+      <img src="/assets/images/original/img_bnr-hospital-nurse.jpg" alt="病棟スタッフ" width="950" height="394" class="rounded-2xl w-full object-cover" loading="lazy"/>
+    </article>
   </div>
-  <div class="placeholder-box mt-6">【画像準備中】病室・スタッフステーションの写真をここに掲載予定</div>
 </section>
