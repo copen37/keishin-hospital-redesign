@@ -1,5 +1,5 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ "assets": "assets" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/images/original": "assets/images/original" });
   eleventyConfig.addPassthroughCopy({ "src/assets/js": "assets/js" });
 
   eleventyConfig.addFilter("isoDate", (value) => {
