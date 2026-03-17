@@ -10,7 +10,7 @@ title: お知らせ一覧
     {% for item in news %}
     <li class="card card-hover">
       <p class="text-xs text-slate-500 mb-2">{{ item.date }} / {{ item.category }}</p>
-      <a class="text-xl font-semibold hover:text-brand-700" href="{{ ('/news/' ~ item.slug ~ '/') | url }}">{{ item.title }}</a>
+      <a class="text-xl font-semibold hover:text-stone-900" href="{{ ('/news/' ~ item.slug ~ '/') | url }}">{{ item.title }}</a>
       <p class="mt-2 text-sm text-slate-600">{{ item.summary }}</p>
     </li>
     {% endfor %}

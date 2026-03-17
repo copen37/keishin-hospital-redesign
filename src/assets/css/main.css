@@ -5,46 +5,46 @@
 
 @layer base {
   html {scroll-behavior: smooth;}
-  body {@apply text-slate-700 bg-[#f5f8fb] leading-relaxed antialiased;}
-  h1,h2,h3,h4 {@apply text-slate-900 font-bold tracking-tight;}
+  body {@apply text-stone-700 bg-[#f4f0ea] leading-relaxed antialiased;}
+  h1,h2,h3,h4 {@apply text-stone-900 font-bold tracking-tight;}
   a {@apply transition duration-300;}
-  :focus-visible {@apply outline-none ring-2 ring-brand-500 ring-offset-2 ring-offset-white rounded-sm;}
+  :focus-visible {@apply outline-none ring-2 ring-stone-500 ring-offset-2 ring-offset-white rounded-sm;}
 }
 
 @layer components {
   .container-keishin {@apply max-w-6xl mx-auto px-5 md:px-8;}
-  .section-title {@apply text-3xl md:text-5xl leading-tight;}
-  .section-lead {@apply text-slate-600 max-w-3xl text-base md:text-lg;}
-  .card {@apply rounded-3xl bg-white shadow-card p-6 md:p-8 border border-slate-100;}
-  .card-hover {@apply hover:-translate-y-1 hover:shadow-xl;}
-  .btn-primary {@apply inline-flex items-center justify-center rounded-full bg-brand-500 hover:bg-brand-700 text-white px-6 py-3 font-medium transition;}
-  .btn-secondary {@apply inline-flex items-center justify-center rounded-full border border-brand-500 text-brand-700 px-6 py-3 font-medium hover:bg-brand-50 transition;}
-  .site-header {@apply sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200;}
-  .nav-link {@apply text-slate-700 hover:text-brand-700 relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[1px] after:bg-brand-700 hover:after:w-full after:transition-all;}
-  .nav-link[aria-current="page"] {@apply text-brand-700 after:w-full font-semibold;}
+  .section-title {@apply text-3xl md:text-5xl leading-tight tracking-[-0.02em];}
+  .section-lead {@apply text-stone-600 max-w-3xl text-base md:text-lg;}
+  .card {@apply rounded-2xl bg-[#fbfaf8] p-6 md:p-8 border border-stone-200 shadow-none;}
+  .card-hover {@apply hover:-translate-y-1 hover:border-stone-300;}
+  .btn-primary {@apply inline-flex items-center justify-center rounded-md bg-stone-900 hover:bg-stone-700 text-white px-6 py-3 font-medium transition;}
+  .btn-secondary {@apply inline-flex items-center justify-center rounded-md border border-stone-500 text-stone-700 px-6 py-3 font-medium hover:bg-stone-100 transition;}
+  .site-header {@apply sticky top-0 z-50 bg-[#f8f5f1]/95 backdrop-blur border-b border-stone-200;}
+  .nav-link {@apply text-stone-700 hover:text-stone-900 relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[1px] after:bg-stone-700 hover:after:w-full after:transition-all;}
+  .nav-link[aria-current="page"] {@apply text-stone-900 after:w-full font-semibold;}
   .mobile-menu {position:relative;}
   .mobile-backdrop {display:none;}
   .mobile-menu[open] .mobile-backdrop {display:block; position:fixed; inset:0; background:rgba(15,23,42,.2); z-index:40;}
   .mobile-panel {@apply absolute right-0 mt-3 w-[84vw] max-w-xs rounded-2xl bg-white p-5 shadow-2xl border border-slate-200; z-index:50;}
-  .ticker {@apply bg-brand-900 text-brand-50 text-xs;}
-  .ticker-label {@apply tracking-[0.2em] uppercase text-[10px] px-2 py-1 rounded-full bg-white/10;}
-  .ticker-track {white-space: nowrap; animation: tickerMove 28s linear infinite;}
-  .hero-title {@apply text-4xl md:text-6xl leading-[1.12] font-black text-slate-900;}
-  .hero-shell {@apply grid lg:grid-cols-[1.1fr_1fr] gap-8 lg:gap-12 items-end py-14 md:py-20;}
+  .ticker {@apply bg-stone-900 text-stone-100 text-xs;}
+  .ticker-label {@apply tracking-[0.25em] uppercase text-[10px] px-2 py-1 rounded-sm bg-white/10;}
+  .ticker-track {white-space: nowrap; letter-spacing: .06em; animation: none;}
+  .hero-title {@apply text-4xl md:text-7xl leading-[1.04] font-black text-stone-900 tracking-[-0.03em];}
+  .hero-shell {@apply grid lg:grid-cols-[1.05fr_1fr] gap-8 lg:gap-14 items-end py-16 md:py-24;}
   .bento-grid {@apply grid md:grid-cols-2 lg:grid-cols-3 gap-5;}
-  .bento-item {@apply rounded-3xl overflow-hidden bg-white border border-slate-100 shadow-card;}
+  .bento-item {@apply rounded-2xl overflow-hidden bg-[#fbfaf8] border border-stone-200 shadow-none;}
   .bento-item img {@apply w-full h-44 object-cover;}
-  .quick-actions {@apply grid gap-3 sm:grid-cols-2 lg:grid-cols-4 bg-gradient-to-r from-white to-brand-50;}
-  .quick-link {@apply rounded-2xl border border-slate-200 bg-white px-4 py-3 hover:border-slate-300 hover:-translate-y-0.5 transition block;}
-  .quick-link span {@apply block text-xs text-slate-500;}
-  .quick-link strong {@apply block text-sm text-slate-900 mt-1;}
-  .faq-item {@apply rounded-2xl border border-slate-200 bg-white px-4 py-3;}
-  .faq-item summary {@apply cursor-pointer font-semibold text-slate-800 list-none pr-6 relative;}
-  .faq-item summary::after {content:'＋'; position:absolute; right:0; top:0; color:#145280;}
+  .quick-actions {@apply grid gap-3 sm:grid-cols-2 lg:grid-cols-4 bg-transparent border border-stone-200;}
+  .quick-link {@apply rounded-md border border-stone-200 bg-[#fbfaf8] px-4 py-3 hover:border-stone-400 hover:-translate-y-0.5 transition block;}
+  .quick-link span {@apply block text-xs text-stone-500 uppercase tracking-[0.08em];}
+  .quick-link strong {@apply block text-sm text-stone-900 mt-1;}
+  .faq-item {@apply rounded-md border border-stone-200 bg-[#fbfaf8] px-4 py-3;}
+  .faq-item summary {@apply cursor-pointer font-semibold text-stone-800 list-none pr-6 relative;}
+  .faq-item summary::after {content:'＋'; position:absolute; right:0; top:0; color:#44403c;}
   .faq-item[open] summary::after {content:'－';}
-  .faq-item p {@apply text-sm text-slate-600 mt-3;}
+  .faq-item p {@apply text-sm text-stone-600 mt-3;}
   .floating-cta {@apply fixed bottom-4 right-4 z-40 flex flex-col gap-2 md:bottom-6 md:right-6;}
-  .floating-btn {@apply bg-brand-700 text-white text-sm px-4 py-3 rounded-full shadow-lg hover:bg-brand-900 text-center;}
+  .floating-btn {@apply bg-stone-900 text-white text-sm px-4 py-3 rounded-md shadow-md hover:bg-stone-700 text-center;}
   .skip-link {@apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:bg-white focus:p-3 focus:rounded-lg focus:z-[100];}
 }
 
