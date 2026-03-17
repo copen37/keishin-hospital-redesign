@@ -21,8 +21,11 @@
   .btn-secondary {@apply inline-flex items-center justify-center rounded-full border border-brand-500 text-brand-700 px-6 py-3 font-medium hover:bg-brand-50 transition;}
   .site-header {@apply sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200;}
   .nav-link {@apply text-slate-700 hover:text-brand-700 relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[1px] after:bg-brand-700 hover:after:w-full after:transition-all;}
+  .nav-link[aria-current="page"] {@apply text-brand-700 after:w-full font-semibold;}
   .mobile-menu {position:relative;}
-  .mobile-panel {@apply absolute right-0 mt-3 w-[84vw] max-w-xs rounded-2xl bg-white p-5 shadow-2xl border border-slate-200;}
+  .mobile-backdrop {display:none;}
+  .mobile-menu[open] .mobile-backdrop {display:block; position:fixed; inset:0; background:rgba(15,23,42,.2); z-index:40;}
+  .mobile-panel {@apply absolute right-0 mt-3 w-[84vw] max-w-xs rounded-2xl bg-white p-5 shadow-2xl border border-slate-200; z-index:50;}
   .ticker {@apply bg-brand-900 text-brand-50 text-xs;}
   .ticker-label {@apply tracking-[0.2em] uppercase text-[10px] px-2 py-1 rounded-full bg-white/10;}
   .ticker-track {white-space: nowrap; animation: tickerMove 28s linear infinite;}
@@ -31,6 +34,15 @@
   .bento-grid {@apply grid md:grid-cols-2 lg:grid-cols-3 gap-5;}
   .bento-item {@apply rounded-3xl overflow-hidden bg-white border border-slate-100 shadow-card;}
   .bento-item img {@apply w-full h-44 object-cover;}
+  .quick-actions {@apply grid gap-3 sm:grid-cols-2 lg:grid-cols-4 bg-gradient-to-r from-white to-brand-50;}
+  .quick-link {@apply rounded-2xl border border-slate-200 bg-white px-4 py-3 hover:border-slate-300 hover:-translate-y-0.5 transition block;}
+  .quick-link span {@apply block text-xs text-slate-500;}
+  .quick-link strong {@apply block text-sm text-slate-900 mt-1;}
+  .faq-item {@apply rounded-2xl border border-slate-200 bg-white px-4 py-3;}
+  .faq-item summary {@apply cursor-pointer font-semibold text-slate-800 list-none pr-6 relative;}
+  .faq-item summary::after {content:'＋'; position:absolute; right:0; top:0; color:#145280;}
+  .faq-item[open] summary::after {content:'－';}
+  .faq-item p {@apply text-sm text-slate-600 mt-3;}
   .floating-cta {@apply fixed bottom-4 right-4 z-40 flex flex-col gap-2 md:bottom-6 md:right-6;}
   .floating-btn {@apply bg-brand-700 text-white text-sm px-4 py-3 rounded-full shadow-lg hover:bg-brand-900 text-center;}
   .skip-link {@apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:bg-white focus:p-3 focus:rounded-lg focus:z-[100];}
