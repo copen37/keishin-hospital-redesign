@@ -1,0 +1,38 @@
+{
+  "base": "https://copen37.github.io/keishin-hospital-redesign/",
+  "checks": [
+    {
+      "step": "home",
+      "url": "https://copen37.github.io/keishin-hospital-redesign/",
+      "status": 200
+    },
+    {
+      "step": "cta_detail",
+      "url": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "status": 200
+    },
+    {
+      "step": "nav_news",
+      "url": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "status": 200
+    },
+    {
+      "step": "nav_recruit",
+      "url": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "status": 200
+    },
+    {
+      "step": "nav_access",
+      "url": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "status": 200
+    },
+    {
+      "step": "cta_reserve",
+      "url": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "status": 200
+    }
+  ],
+  "consoleErrors": [],
+  "consoleErrorCount": 0,
+  "non200": []
+}
