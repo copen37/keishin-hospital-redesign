@@ -1,0 +1,45 @@
+# Link Audit Report
+
+- Base: https://copen37.github.io/keishin-hospital-redesign/
+- Crawled pages: 10
+- Clickable transitions: 269
+- Broken internal links: 6
+- Console errors: 0
+
+## Broken links
+- from: https://copen37.github.io/keishin-hospital-redesign/
+  - element: [a] 詳しく見る
+  - raw: /care/
+  - target: https://copen37.github.io/care/
+  - status: 404
+  - reason: pathPrefix missing
+- from: https://copen37.github.io/keishin-hospital-redesign/
+  - element: [a] 入院前に確認
+  - raw: /hospitalization/
+  - target: https://copen37.github.io/hospitalization/
+  - status: 404
+  - reason: pathPrefix missing
+- from: https://copen37.github.io/keishin-hospital-redesign/
+  - element: [a] 施設をみる
+  - raw: /facilities/
+  - target: https://copen37.github.io/facilities/
+  - status: 404
+  - reason: pathPrefix missing
+- from: https://copen37.github.io/keishin-hospital-redesign/news/system-update/
+  - element: [a] お知らせ
+  - raw: /news/
+  - target: https://copen37.github.io/news/
+  - status: 404
+  - reason: pathPrefix missing
+- from: https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/
+  - element: [a] お知らせ
+  - raw: /news/
+  - target: https://copen37.github.io/news/
+  - status: 404
+  - reason: pathPrefix missing
+- from: https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/
+  - element: [a] お知らせ
+  - raw: /news/
+  - target: https://copen37.github.io/news/
+  - status: 404
+  - reason: pathPrefix missing

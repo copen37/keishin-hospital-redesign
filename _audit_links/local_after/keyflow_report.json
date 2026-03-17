@@ -1,0 +1,38 @@
+{
+  "base": "http://127.0.0.1:4173/keishin-hospital-redesign/",
+  "checks": [
+    {
+      "step": "home",
+      "url": "http://127.0.0.1:4173/keishin-hospital-redesign/",
+      "status": 200
+    },
+    {
+      "step": "cta_detail",
+      "url": "http://127.0.0.1:4173/keishin-hospital-redesign/care/",
+      "status": 200
+    },
+    {
+      "step": "nav_news",
+      "url": "http://127.0.0.1:4173/keishin-hospital-redesign/news/",
+      "status": 200
+    },
+    {
+      "step": "nav_recruit",
+      "url": "http://127.0.0.1:4173/keishin-hospital-redesign/recruit/",
+      "status": 200
+    },
+    {
+      "step": "nav_access",
+      "url": "http://127.0.0.1:4173/keishin-hospital-redesign/access/",
+      "status": 200
+    },
+    {
+      "step": "cta_reserve",
+      "url": "http://127.0.0.1:4173/keishin-hospital-redesign/access/",
+      "status": 200
+    }
+  ],
+  "consoleErrors": [],
+  "consoleErrorCount": 0,
+  "non200": []
+}

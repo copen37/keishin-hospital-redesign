@@ -1,0 +1,2562 @@
+{
+  "summary": {
+    "base": "https://copen37.github.io/keishin-hospital-redesign/",
+    "crawledPages": 10,
+    "transitions": 269,
+    "brokenCount": 6,
+    "consoleErrorCount": 0
+  },
+  "pages": [
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 38
+    },
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 29
+    },
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 29
+    },
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 29
+    },
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 31
+    },
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 32
+    },
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 31
+    },
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 31
+    },
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 31
+    },
+    {
+      "url": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "status": 200,
+      "consoleErrors": [],
+      "clickableCount": 31
+    }
+  ],
+  "broken": [
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "詳しく見る",
+      "tag": "a",
+      "raw": "/care/",
+      "target": "https://copen37.github.io/care/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404,
+      "error": null,
+      "reason": "pathPrefix missing"
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "入院前に確認",
+      "tag": "a",
+      "raw": "/hospitalization/",
+      "target": "https://copen37.github.io/hospitalization/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404,
+      "error": null,
+      "reason": "pathPrefix missing"
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "施設をみる",
+      "tag": "a",
+      "raw": "/facilities/",
+      "target": "https://copen37.github.io/facilities/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404,
+      "error": null,
+      "reason": "pathPrefix missing"
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/news/",
+      "target": "https://copen37.github.io/news/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404,
+      "error": null,
+      "reason": "pathPrefix missing"
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/news/",
+      "target": "https://copen37.github.io/news/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404,
+      "error": null,
+      "reason": "pathPrefix missing"
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/news/",
+      "target": "https://copen37.github.io/news/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404,
+      "error": null,
+      "reason": "pathPrefix missing"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "診療案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "アクセス・予約",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "詳しく見る",
+      "tag": "a",
+      "raw": "/care/",
+      "target": "https://copen37.github.io/care/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "入院前に確認",
+      "tag": "a",
+      "raw": "/hospitalization/",
+      "target": "https://copen37.github.io/hospitalization/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "施設をみる",
+      "tag": "a",
+      "raw": "/facilities/",
+      "target": "https://copen37.github.io/facilities/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "外来受付システム更新のお知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/system-update/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "看護師採用説明会（春開催）",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/nurse-session/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "面会ルール一部変更について",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/visit-policy/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "一覧を見る →",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "募集要項を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "ホーム",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "ホーム",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "ホーム",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "ホーム",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "ホーム",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "外来受付システム更新のお知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/system-update/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "看護師採用説明会（春開催）",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/nurse-session/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "面会ルール一部変更について",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/visit-policy/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "ホーム",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "見学を申し込む",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "ホーム",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/news/",
+      "target": "https://copen37.github.io/news/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "← お知らせ一覧に戻る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/system-update/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "ホーム",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/news/",
+      "target": "https://copen37.github.io/news/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "← お知らせ一覧に戻る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/nurse-session/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "恵心病院",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "お問い合わせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "ホーム",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/news/",
+      "target": "https://copen37.github.io/news/",
+      "kind": "same-origin-outside-prefix",
+      "status": 404
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "← お知らせ一覧に戻る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "予約・問合せ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "診療案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/care/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/care/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "入院案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "施設案内",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/facilities/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/facilities/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "アクセス",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/access/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/access/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "お知らせ",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/news/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/news/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "採用情報",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/recruit/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/recruit/",
+      "kind": "internal",
+      "status": 200
+    },
+    {
+      "from": "https://copen37.github.io/keishin-hospital-redesign/news/visit-policy/",
+      "text": "入院案内を見る",
+      "tag": "a",
+      "raw": "/keishin-hospital-redesign/hospitalization/",
+      "target": "https://copen37.github.io/keishin-hospital-redesign/hospitalization/",
+      "kind": "internal",
+      "status": 200
+    }
+  ]
+}
